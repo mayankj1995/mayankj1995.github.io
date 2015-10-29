@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Welcome to Harish metal India</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+       <div class="top" align="center"><h1 style="font-family: Courier" ><img id="logo" src="logo.jpg">Harish Metal (India)</h1><p style="color:white; font-family:cursive" align="Center">Trust is the key of success</p></div> 
+        <div>
+        <table >
+        <tr>
+            <td><img class="product" src="coils.jpg"/></td>
+            <td><img class="product" src="ubolt.jpg"/></td>
+            <td><img class="product" src="pipes.jpg"/></td>
+        </tr>
+        <tr>
+            <td><img class="product" src="sheets.jpg"/></td>
+            <td><img class="product" src="ssgate.jpg"/></td>
+            <td><img class="product" src="stripes.jpg"/></td>
+        </tr>
+        <tr>
+            <td><img class="product" src="tapes.jpg"/></td>
+            <td><img class="product" src="valves.jpg"/></td>
+            <td><img class="product" src="wpipe.jpg"/></td>
+        </tr>
+        </table>
+            <div id="right">
+                <form action="http://www.google.com">
+                    <table>
+                        <thead><td><h3 align="center">Inquiry Form</h3></td></thead>
+                        <tr><td>Company: </td><td><input type="text" name="fname"></td></tr>
+                        <tr><td>Name:    </td><td><input type="text" name="lname"></td></tr>
+                        <tr><td>Address: </td><td><input type="text" name="address"></td></tr>
+                        <tr><td>Phone:   </td><td><input type="tel" name="num"></td></tr>
+                        <tr><td>Email:   </td><td><input type="email" name="email"></td></tr>
+                        <tr><td>Website:   </td><td><input type="url" name="web"></td></tr>
+                        <tr><td>Requirements:   </td><td><textarea name="req" id="req" cols="18" rows="3"></textarea></td></tr>
+                        <tr><td><input type="submit" value="Submit" onclick="alert('Hello World!')"></td></tr>
+                    </table>
+                </form>
+                
+            </div>
+        </div>
+        
+       
+        <div id="bottom">
+            <div class="bottoms"> <a href="http://www.google.com">Home</a></div>
+            <div class="bottoms"> <a href="http://www.google.com">About</a></div>
+            <div class="bottoms"> <a href="http://www.google.com">Contact</a></div>
+            <div class="bottoms"> <a href="http://www.google.com">Products </a></div>
+            <div class="bottoms"> <a href="http://www.google.com">Inquiry</a></div>
+        </div>
+        
+        <script type="text/javascript">
+toggle();
+window.onresize = function() {
+    toggle();
+}
+
+function toggle() {
+    if (window.innerWidth > 800) {
+        
+        document.getElementById('right').style.display = 'block';        
+    }
+    else {
+     
+        document.getElementById('right').style.display = 'none';                
+    }    
+}
+</script>
+        
+        
+        
+        
+        
+    </body>
+</html>
