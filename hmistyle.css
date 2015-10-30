@@ -1,0 +1,85 @@
+body-background{
+    background-color: #F1F1F1;
+
+}
+.background-image{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    z-index: -1;
+    display: block;
+    
+    background-image: url(images/bg.png);
+    width: 1200px;
+    height: 800px;
+    -webkit-filter: blur(10px);
+}
+
+.top{
+    color: white;
+     
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    float: left;
+}
+
+#menubar{
+    background-color: #11A3B0;
+    border-radius: 10px;
+}
+
+.menuBarContent{
+    margin: 5px;
+    display: inline-flex;
+    font-family: "comic sans ms", "verdana", "arial";
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    
+}
+.menuBarContent:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.divimg{
+    text-align: center;
+    display:inline-block;
+    height: 200px;
+    width:200px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    font-family: verdana;
+    margin: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.divimg:hover{
+    background-color: black;
+    color: white;
+}
+#img{
+    height: 180px;
+    width: 180px;
+    opacity: 1;
+    padding: 5px;
+    border: 1px grey solid;
+    border-radius: 10px;
+    margin-top:5px;
+    z-index: -1;
+}
+#img:hover{
+    -webkit-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition: all 0.5s;
+    background-color: #FFFFFF;
+    opacity: 0.6;
+    cursor:pointer;
+}
